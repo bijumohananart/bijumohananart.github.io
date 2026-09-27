@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biju Mohan | Artist & Sculptor</title>
+<meta name="description" content="Biju Mohan — artist and sculptor with over three decades of dedication to painting, sculpture and creative expression.">
+<style>
+:root{
+  --ink:#171717; --muted:#666; --paper:#f8f7f3; --line:#dedbd4; --dark:#171717;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper)}
+a{color:inherit;text-decoration:none}
+.nav{height:74px;background:#fff;border-bottom:1px solid #eee;display:flex;align-items:center;justify-content:space-between;padding:0 6vw;position:sticky;top:0;z-index:10}
+.logo{font-weight:800;letter-spacing:.06em;font-size:19px}
+.logo span{display:block;font-size:9px;letter-spacing:.22em;font-weight:500;margin-top:3px}
+.navlinks{display:flex;gap:28px;font-size:12px}
+.navlinks a:hover{text-decoration:underline}
+.hero{min-height:680px;display:grid;grid-template-columns:1.05fr .95fr;gap:5vw;padding:55px 6vw 70px;background:#fff;align-items:center}
+.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#777;margin-bottom:22px}
+h1{font-size:clamp(50px,7vw,92px);line-height:.9;margin:0 0 28px;letter-spacing:-.055em;font-weight:500}
+.hero p{max-width:560px;font-size:16px;line-height:1.8;color:#5e5e5e}
+.cta{display:inline-block;margin-top:20px;background:#171717;color:#fff;padding:15px 24px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.hero-img{height:590px;overflow:hidden;background:#ddd}
+.hero-img img{width:100%;height:100%;object-fit:cover;object-position:center 22%}
+.intro{padding:95px 9vw 105px;text-align:center;background:var(--paper)}
+.section-kicker{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:#777}
+h2{font-size:clamp(34px,4vw,58px);font-weight:500;letter-spacing:-.04em;margin:15px 0 25px}
+.intro p{max-width:760px;margin:auto;color:#606060;font-size:15px;line-height:1.9}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:7vw;padding:90px 8vw;background:#fff;align-items:center}
+.about-photo{height:560px;overflow:hidden}
+.about-photo img{width:100%;height:100%;object-fit:cover;object-position:center 25%}
+.about-copy h2{margin-top:8px}
+.about-copy p{color:#606060;line-height:1.85;font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:35px;border:1px solid var(--line)}
+.stat{padding:25px;background:#fff}
+.stat strong{font-size:28px;font-weight:500;display:block}
+.stat span{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#777}
+.dark{background:var(--dark);color:#fff;padding:90px 7vw}
+.dark .section-kicker{color:#aaa}
+.works{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}
+.work{height:330px;background:#333;position:relative;overflow:hidden}
+.work img{width:100%;height:100%;object-fit:cover;filter:saturate(.92)}
+.work:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,rgba(0,0,0,.7))}
+.work .label{position:absolute;z-index:2;left:22px;bottom:20px;font-size:13px;letter-spacing:.08em}
+.quote{padding:100px 9vw;text-align:center;background:#f0eee9}
+.quote p{font-size:clamp(26px,3.2vw,44px);line-height:1.25;max-width:900px;margin:18px auto;font-weight:400}
+.contact{padding:80px 8vw;background:#fff;display:flex;justify-content:space-between;gap:40px;align-items:flex-end}
+.contact h2{margin-bottom:10px}
+.contact p{color:#666;line-height:1.8}
+.footer{background:#171717;color:#fff;padding:45px 8vw;display:flex;justify-content:space-between;gap:30px;font-size:11px}
+.footer .muted{color:#aaa}
+@media(max-width:800px){
+  .nav{padding:0 5vw}.navlinks{gap:13px;font-size:10px}
+  .hero{grid-template-columns:1fr;padding:45px 5vw 60px}.hero-img{height:480px}
+  .about{grid-template-columns:1fr;padding:65px 5vw}.about-photo{height:460px}
+  .works{grid-template-columns:1fr}.work{height:390px}
+  .stats{grid-template-columns:1fr}
+  .contact,.footer{flex-direction:column;align-items:flex-start}
+}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="logo">BIJU MOHAN<span>ARTIST · SCULPTOR</span></div>
+  <nav class="navlinks">
+    <a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#works">WORKS</a><a href="#contact">CONTACT</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div>
+    <div class="eyebrow">Artist · Sculptor · Kerala</div>
+    <h1>A LIFE<br>SHAPED BY<br>ART.</h1>
+    <p>For more than three decades, Biju Mohan has devoted his creative life to painting, sculpture and the pursuit of meaningful artistic expression.</p>
+    <a class="cta" href="#about">Discover the Artist</a>
+  </div>
+  <div class="hero-img"><img src="biju-mohanan-portrait-1.jpg" alt="Biju Mohan"></div>
+</section>
+
+<section class="intro">
+  <div class="section-kicker">The Artist</div>
+  <h2>Where imagination becomes form.</h2>
+  <p>Biju Mohan began his artistic journey in his early teens. What started as a passion for drawing and creating gradually became a lifelong dedication spanning approximately 35 years. His practice today embraces painting, sculpture and other forms of visual art, with a focus on craftsmanship, expression and individuality.</p>
+</section>
+
+<section class="about" id="about">
+  <div class="about-photo"><img src="biju-mohanan-portrait-2.jpg" alt="Biju Mohan portrait"></div>
+  <div class="about-copy">
+    <div class="section-kicker">About Biju Mohan</div>
+    <h2>An artist shaped by decades of practice.</h2>
+    <p>Biju Mohan is a dedicated artist and sculptor whose relationship with art began when he was around twelve years old. Over the past three and a half decades, he has continued to develop his skills through sustained practice, experimentation and a deep commitment to the creative process.</p>
+    <p>His artistic work extends across painting and sculpture, alongside other creative disciplines. Each work reflects a combination of observation, imagination and hands-on craftsmanship. Through years of creating, exhibiting and receiving recognition, he has built an artistic journey marked by persistence and a continuing desire to explore new ideas.</p>
+    <p>Today, painting and sculpture remain at the heart of his practice. This website presents a selection of his work and offers a place to discover his artistic journey, achievements and future creations.</p>
+    <div class="stats">
+      <div class="stat"><strong>35+</strong><span>Years of artistic practice</span></div>
+      <div class="stat"><strong>12+</strong><span>Years old when the journey began</span></div>
+      <div class="stat"><strong>Many</strong><span>Awards & recognitions</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="works">
+  <div class="section-kicker">Selected Presence</div>
+  <h2>Painting. Sculpture. Expression.</h2>
+  <div class="works">
+    <div class="work"><img src="biju-mohanan-portrait-1.jpg" alt=""><div class="label">THE ARTIST</div></div>
+    <div class="work"><img src="biju-mohanan-portrait-2.jpg" alt=""><div class="label">CREATIVE JOURNEY</div></div>
+    <div class="work"><img src="biju-mohanan-portrait-3.jpg" alt=""><div class="label">ART & CRAFT</div></div>
+  </div>
+  <p style="max-width:650px;color:#aaa;line-height:1.8;margin-top:35px">Artwork images, sculpture collections, awards and exhibition history will be added here as the portfolio materials are collected.</p>
+</section>
+
+<section class="quote">
+  <div class="section-kicker">Artist's Journey</div>
+  <p>“A lifelong journey of turning ideas, observation and imagination into works of art.”</p>
+</section>
+
+<section class="contact" id="contact">
+  <div>
+    <div class="section-kicker">Get in touch</div>
+    <h2>Discover the work.</h2>
+    <p>For artwork enquiries, exhibitions, commissions and collaborations, contact Biju Mohan.</p>
+  </div>
+  <a class="cta" href="mailto:contact@bijumohananart.com">Contact the Artist</a>
+</section>
+</main>
+
+<footer class="footer">
+  <div><strong>BIJU MOHAN</strong><br><span class="muted">Artist & Sculptor · Thiruvananthapuram, Kerala</span></div>
+  <div class="muted">© Biju Mohan · bijumohananart.com</div>
+</footer>
+</body>
+</html>
